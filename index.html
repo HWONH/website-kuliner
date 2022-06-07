@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/09743b710b.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
@@ -315,6 +317,80 @@
             </div>
         </div>
     </section>
+    <section id="section06">
+        <div class="wrap">
+            <div class="box_l">
+                <div id="map"></div>
+            </div>
+            <div class="box_r">
+                <div>
+                    <h3 class="title">Register</h3>
+                    <form action="" method="get" id="my_info">
+                        <div>
+                            <input type="text" placeholder="ID">
+                        </div>
+                        <div>
+                            <input type="password" placeholder="PASSWORD">
+                        </div>
+                        <div>
+                            <input type="password" placeholder="PASSWORD CONFIRM">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="E-MAIL">
+                        </div>
+                        <div class="send">
+                            <input type="checkbox" id="send" name="send"><label for="send">Send our info to your email</label>
+                        </div>
+                        <div class="submit">
+                            <button>SUBMIT</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section07">
+        <div class="wrap">
+            <div class="box">
+                <ul class="sns">
+                    <li>
+                        <a href="" target="_blank"><i class="fab fa-facebook-f"></i><span class="blind">페이스북</span></a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank"><i class="fab fa-twitter"></i><span class="blind">트위터</span></a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank"><i class="fab fa-pinterest-square"></i><span class="blind">핀더레스트</span></a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank"><i class="fab fa-youtube"></i><span class="blind">유튜브</span></a>
+                    </li>
+                </ul>
+                <h1 class="logo_footer">
+                    <a href=""><img src="img/logo-footer.png" alt="Kuliner"></a>
+                </h1>
+                <p>&copy; 2017 KULINER, All rights reserved</p>
+            </div>
+            <div class="scroll_top">
+                <i class="fas fa-chevron-up"><span class="blind">상단으로 이동하기</span></i>
+                <p>TOP</p>
+            </div>
+        </div>
+    </section>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMOwJdqgkxI6MQb4E95pSSBF1TABF5pZA&callback=initMap"></script>
+    <script>
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+                center: {
+                    lat: 37.498848,
+                    lng: 127.026780
+                },
+                zoom: 16
+            });
+        }
+    </script>
 
 </body>
 

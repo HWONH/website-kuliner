@@ -137,3 +137,34 @@ button{cursor: pointer;}
 #section05 .dark_bg .wrap .txt_box .email_box input{width: calc(100% - 60px);font-size: 20px;color: #555555;}
 #section05 .dark_bg .wrap .txt_box .email_box button{}
 #section05 .dark_bg .wrap .txt_box .email_box button i{font-size: 20px;color: #ff6600;}
+/* #section06 */
+#section06{height: 400px;background: #ededed;}
+#section06 .wrap{width: 1160px;height: 100%;margin: 0 auto;padding: 0 10px;text-align: center;}
+#section06 .wrap > *{width: 50%;height: 100%;padding: 20px;}
+#section06 .wrap .box_l{float: left;}
+#section06 .wrap .box_l #map{height: 100%;}
+#section06 .wrap .box_r{display: table;float: right;}
+#section06 .wrap .box_r > div{display: table-cell;vertical-align: middle;}
+#section06 .wrap .box_r > div .title{font-size: 54px;line-height: 72px;color: #555555;}
+#section06 .wrap .box_r > div #my_info{}
+#section06 .wrap .box_r > div #my_info > div{width: 100%;height: 35px;padding: 0 20px;text-align: left;border-bottom: 1px solid #999;margin-bottom: 8px;}
+#section06 .wrap .box_r > div #my_info div input{width: 100%;height: 100%;}
+#section06 .wrap .box_r > div #my_info .send{border: none;height: auto;}
+#section06 .wrap .box_r > div #my_info div input[type="checkbox"]{width: auto;height: 12px;display: inline-block;margin-right: 5px;} /* check! */
+#section06 .wrap .box_r > div #my_info .submit{height: auto;text-align: right;border: none;margin: 0;}
+#section06 .wrap .box_r > div #my_info .submit button{width: 240px;height: 41px;font-size: 18px;color: #ffffff;background: #ff6600;border-radius: 8px;text-align: center;}
+/* #section07 */
+#section07{height: 220px;background: #000000;}
+#section07 .wrap{display: table;width: 1160px;height: 100%;margin: 0 auto;padding: 0 10px;text-align: center;}
+#section07 .wrap .box{display: table-cell;vertical-align: middle;}
+#section07 .wrap .box .sns{font-size: 0;}
+#section07 .wrap .box .sns li{display: inline-block;vertical-align: middle;width: 40px;height: 40px;border: 1px solid #fff;border-radius: 50%;margin: 0 10px;}
+#section07 .wrap .box .sns li a{display: block;}
+#section07 .wrap .box .sns li a i{line-height: 40px;font-size: 16px;color: #ffffff;}
+#section07 .wrap .box .logo_footer{}
+#section07 .wrap .box .logo_footer a{display: block;padding: 10px 0;}
+#section07 .wrap .box .logo_footer a img{display: inline-block;}
+#section07 .wrap .box p{font-size: 14px;color: #ffffff;}
+#section07 .wrap .scroll_top{position: fixed;bottom: 38px;right: 38px;width: 40px;background: #ffffff;border-radius: 4px;cursor: pointer;}
+#section07 .wrap .scroll_top i{height: 20px;color: #ff0000;}
+#section07 .wrap .scroll_top p{font-size: 16px;}
